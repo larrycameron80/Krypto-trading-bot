@@ -27,7 +27,8 @@
     "sass": "^1.10.0",
     "typescript": "2.9.2",
     "uglify-es": "^3.3.9",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "snyk": "^1.316.1"
   },
   "homepage": "https://github.com/ctubio/Krypto-trading-bot",
   "bugs": "https://github.com/ctubio/Krypto-trading-bot/issues",
@@ -45,5 +46,10 @@
     "darwin",
     "linux"
   ],
-  "license": "(ISC OR MIT)"
+  "license": "(ISC OR MIT)",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
