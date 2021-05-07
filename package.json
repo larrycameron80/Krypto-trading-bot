@@ -19,7 +19,7 @@
     "babel-preset-env": "^1.7.0",
     "babelify": "^8.0.0",
     "browserify": "^16.2.2",
-    "highcharts": "^6.1.1",
+    "highcharts": "^9.0.0",
     "ng4-popover": "^1.0.23",
     "reflect-metadata": "^0.1.12",
     "rxjs": "6.2.2",
